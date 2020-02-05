@@ -1,0 +1,46 @@
+html {
+    background: #F0F0F0;
+}
+
+.banner {
+    max-width: 750px;
+    margin: auto;
+    padding: 1em;
+}
+
+.logo {
+    display: block;
+    max-height: 15rem;
+    max-width: 15rem;
+}
+
+main {
+    background: white;
+    margin: auto;
+    max-width: 750px;
+    padding-top: 1rem;
+}
+
+footer {
+    margin: auto;
+    margin-top: 4rem;
+    max-width: 750px;
+    text-align: center;
+    padding: 1rem;
+    border-top: .05rem solid;
+}
+
+section {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    background: #EEEEFE;
+    padding: 1rem;
+}
