@@ -25,6 +25,7 @@ main {
 
 footer {
     margin: auto;
+    margin-bottom: 15em;
     padding-top: 4rem;
     max-width: 750px;
     text-align: center;
