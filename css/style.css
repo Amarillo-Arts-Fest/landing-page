@@ -1,11 +1,12 @@
 html {
-    background: #F0F0F0;
+    background: center / cover no-repeat url("/img/background.jpg") #EEEEFE;
 }
 
-.banner {
-    max-width: 750px;
+header {
+    background: #FFFFFFEE;
     margin: auto;
-    padding: 1em;
+    max-width: 750px;
+    padding: 1rem;
 }
 
 .logo {
@@ -15,19 +16,20 @@ html {
 }
 
 main {
-    background: white;
+    background: #FFFFFFEE;
     margin: auto;
     max-width: 750px;
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 footer {
     margin: auto;
-    margin-top: 4rem;
+    padding-top: 4rem;
     max-width: 750px;
     text-align: center;
     padding: 1rem;
-    border-top: .05rem solid;
+    border-top: .05rem solid #DDDDFFFF;
+    background: #FFFFFFEE;
 }
 
 section {
@@ -41,6 +43,6 @@ section {
 
 h2 {
     font-family: 'Roboto Slab', serif;
-    background: #EEEEFE;
+    background: #EEEEFFFF;
     padding: 1rem;
 }
