@@ -6,20 +6,30 @@ header {
     background: #FFFFFFEE;
     margin: auto;
     max-width: 750px;
+    min-width: 310px;
     padding: 1rem;
 }
 
 .logo {
     display: block;
     max-height: 15rem;
-    max-width: 15rem;
+    max-width: 20rem;
     margin: auto;
+}
+
+.logo-pane {
+    margin-bottom: 3rem;
+}
+
+.info-pane {
+    text-align: center;
 }
 
 main {
     background: #FFFFFFEE;
     margin: auto;
     max-width: 750px;
+    min-width: 310px;
     padding: 1rem;
 }
 
@@ -28,6 +38,7 @@ footer {
     margin-bottom: 15em;
     padding-top: 4rem;
     max-width: 750px;
+    min-width: 310px;
     text-align: center;
     padding: 1rem;
     border-top: .05rem solid #DDDDFFFF;
@@ -57,11 +68,16 @@ li {
 @media only screen and (min-width: 54em) {
     .logo {
         margin: unset;
+        height: 15rem;
+        width: 20rem;
+    }
+
+    .logo-pane {
+        margin: unset;
+        float: left;
     }
 
     h2 {
         font-size: 1.7em;
     }
-    
-    
 }
