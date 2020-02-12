@@ -63,6 +63,7 @@ h2 {
 
 li {
     list-style-type: circle;
+    margin-bottom: .5rem;
 }
 
 @media only screen and (min-width: 54em) {
