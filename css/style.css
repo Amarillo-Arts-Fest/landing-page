@@ -62,7 +62,7 @@ h2 {
     background: #EEEEFFFF;
     padding: 1rem;
     font-size: 1.2em;
-    text-alignment: center;
+    text-align: center;
 }
 
 li {
@@ -77,6 +77,6 @@ li {
     }
     h2 {
         font-size: 1.7em;
-        text-alignment: center;
+        text-align: center;
     }
 }
