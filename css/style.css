@@ -77,5 +77,6 @@ li {
     }
     h2 {
         font-size: 1.7em;
+        text-alignment: center;
     }
 }
