@@ -1,25 +1,16 @@
 html {
-    background: center / cover no-repeat url("/steve-johnson--2FHKwZo5TA-unsplash (1).jpg") #EEEEFE;
+    background: center / cover no-repeat url("/img/background.jpg") #EEEEFE;
 }
 
 header {
-    background: #FFFFFFEE;
+    background: center / contain no-repeat url("/img/logo.png") white;
     margin: auto;
     max-width: 750px;
+    min-height: 310px;
     min-width: 310px;
     padding: 1rem;
 }
 
-.logo {
-    display: block;
-    max-height: 15rem;
-    max-width: 20rem;
-    margin: auto;
-}
-
-.logo-pane {
-    margin-bottom: 3rem;
-}
 
 .info-pane {
     font-family: 'Roboto', sans-serif;
